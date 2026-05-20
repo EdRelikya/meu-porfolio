@@ -1,5 +1,6 @@
 import "./globals.css";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export const metadata = {
   title: "Meu Portfólio",
@@ -11,7 +12,10 @@ export default function RootLayout({ children }) {
     <html lang="pt-BR">
       <body>
         <Navbar />
+
         {children}
+
+        <Footer />
       </body>
     </html>
   );
