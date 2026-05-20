@@ -66,3 +66,42 @@ body {
   border: 2px solid #38bdf8 !important;
   color: white !important;
 }
+
+.navbar {
+  width: 100%;
+  padding: 20px 40px;
+  background-color: #111827;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #1e293b;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
+.page-container {
+  padding: 140px 40px;
+}

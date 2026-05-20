@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="hero">
       <div className="hero-content">
-        <h1>Olá, me chamo Ed</h1>
+        <h1>Olá, eu sou Ed</h1>
 
         <h2>Desenvolvedor Front-End</h2>
 
