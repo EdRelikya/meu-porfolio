@@ -1,4 +1,5 @@
 import SkillCard from "../components/SkillCard";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -15,11 +16,15 @@ export default function Home() {
           </p>
 
           <div className="hero-buttons">
-            <button>Ver Projetos</button>
+            <Link href="/projetos">
+              <button>Ver Projetos</button>
+            </Link>
 
-            <button className="secondary-button">
-              GitHub
-            </button>
+            <Link href="https://github.com/EdRelikya" target="_blank">
+              <button className="secondary-button">
+                GitHub
+              </button>
+            </Link>
           </div>
         </div>
       </section>
