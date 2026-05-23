@@ -5,7 +5,7 @@ export default function Sobre() {
         <h1>Sobre Mim</h1>
 
         <p className="about-text">
-          Sou estudante e desenvolvedor front-end apaixonado por tecnologia,
+          Meu nome é Edmundo Cariolano, e sou estudante e desenvolvedor front-end apaixonado por tecnologia,
           interfaces modernas e experiências digitais. Tenho interesse em
           desenvolvimento web, design de interfaces e criação de projetos
           interativos utilizando React, Next.js e JavaScript.

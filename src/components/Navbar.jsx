@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <div className="logo">
-        Ed.dev
+        Ed.Dev
       </div>
 
       <nav>
